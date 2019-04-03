@@ -18,6 +18,6 @@ function currentLine(katzDeliLine){
     for (i = 0; katzDeliLine.lenght < 0; i++){
       numName.push(`${i + 1}. katzDeliLine[i]`)
     }
-    return `The line is cu
+    return `The line is currently $
   }
 }
