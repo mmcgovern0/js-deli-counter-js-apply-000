@@ -1,6 +1,7 @@
 var katzDeliLine = []
 let n = 1
 function justGetANumber(katzDeliLine){
+  katzDeliLine.push(n)
   
 }
 
