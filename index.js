@@ -14,9 +14,9 @@ function takeANumber(katzDeliLine, name){
   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
 }
 
-console.log(takeANumber(katzDeliLine))
-console.log(takeANumber(katzDeliLine))
-console.log(takeANumber(katzDeliLine))
+console.log(takeANumber("Mikey"))
+console.log(takeANumber("Steven"))
+console.log(takeANumber("Adam"))
 
 function nowServing(katzDeliLine){
   if (katzDeliLine.length > 0){
