@@ -1,4 +1,8 @@
 var katzDeliLine = []
+let n = 1
+function justGetANumber(katzDeliLine){
+  
+}
 
 function takeANumber(katzDeliLine, name){
   katzDeliLine.push(name)
