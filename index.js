@@ -12,4 +12,11 @@ function nowServing(katzDeliLine){
   return "There is nobody waiting to be served!"
 }
 
-
+function currentLine(katzDeliLine){
+  if (katzDeliLine.length > 0){
+    var numName = []
+    for (i = 0; katzDeliLine.lenght < 0; i++){
+      
+    }
+  }
+}
