@@ -2,7 +2,7 @@ var katzDeliLine = []
 let n = 1
 function justGetANumber(katzDeliLine){
   katzDeliLine.push(n)
-  
+  return `Your number is ${katzDeliLine}
 }
 
 function takeANumber(katzDeliLine, name){
