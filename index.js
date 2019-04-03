@@ -5,14 +5,15 @@ function justGetANumber(katzDeliLine){
   return `Your number is ${n++}`
 }
 
+console.log(takeANumber(katzDeliLine))
+console.log(takeANumber(katzDeliLine))
+console.log(takeANumber(katzDeliLine))
+
 function takeANumber(katzDeliLine, name){
   katzDeliLine.push(name)
   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
 }
 
-console.log(takeANumber(katzDeliLine))
-console.log(takeANumber(katzDeliLine))
-console.log(takeANumber(katzDeliLine))
 
 function nowServing(katzDeliLine){
   if (katzDeliLine.length > 0){
